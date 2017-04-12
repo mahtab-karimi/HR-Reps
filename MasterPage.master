@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Simple Login Project in ASP.Net</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table width="100%">
+            <tr>
+                <td colspan="3" bgcolor="#dcdcdc">
+                    <img src="images/01.jpg" runat="server" id="IMG1"/></td>
+            </tr>
+            <tr>
+                <td style="width: 3px" valign="top">
+                    <br />
+                    <br />
+                    <div style="width: 79px; height: 143px">
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Login.aspx">صفحه اصلي</asp:HyperLink><br />
+                        <br />
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CreateUser.aspx">ثبت نام</asp:HyperLink><br />
+                        <br />
+                        <br />
+                        <br />
+                        </div>
+                </td>
+                <td colspan="2">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" bgcolor="#dcdcdc" style="height: 84px">
+                    <div style="width: 100%; height: 25px; text-align: center">
+                        <span style="font-size: 10pt; font-family: Verdana">
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/02.jpg" /><br />
+                            </span></div>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        &nbsp;</div>
+    </form>
+</body>
+</html>
